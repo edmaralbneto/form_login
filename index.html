@@ -1,26 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!--Imprtando arquivo css-->
-    <link rel="stylesheet" href="css/style.css">
+    <title>Login do Instagram</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-    <h2>Logo</h2>
+    <main>
+        <div class="login-container">
 
-    <nav class="menu">
-        <a href="#">Home</a>
-        <a href="#">Sobre</a>
-        <a href="#">Serviços</a>
-        <a href="#">Contatos</a>
-        <button class="btn-login">Login</button>
-    </nav>
 
-    
-</header>
+            <img src="img/Instagram-Logo.png"
+                alt="" width=150px>
+
+            <form class="login">
+                <input type="text" placeholder="Telefone, nome de usuário ou email" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+
+
+                <div class="separador">OU</div>
+
+
+                <div class="fb-bot">
+                    <img src="img/facebook.png" alt="botton">
+                    <a href="" target="_blank">Entrar com facebook</a>
+                </div>
+                <a href="#">Esqueceu a senha?</a>
+            </form>
+        </div>
+
+        <div class="registro">
+            <p>Não tens uma conta?</p>
+            <a href="">Registre-se</a>
+
+        </div>
+    </main>
 </body>
+
 </html>
